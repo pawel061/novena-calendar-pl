@@ -40,7 +40,7 @@ function createEvent(day, url) {
   Logger.log('sd: ' + sd);
   var message = "";
   if(url=="no_video"){
-    // When there is no video available
+	// When there is no video available
 	message = desc +"<br>" +"Keep going";
   }else{
 	message = desc +"<br>" +"Video: http://youtube.com" +url;
